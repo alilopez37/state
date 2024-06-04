@@ -1,0 +1,9 @@
+
+#form_login-box {
+    width: 30%;
+    max-width: 350px;
+    height: 30vh;
+    max-height: 350px;
+    border-bottom: 1px gray solid;
+    border-right: 1px gray solid;
+}
