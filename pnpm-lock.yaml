@@ -8,6 +8,21 @@ importers:
 
   .:
     dependencies:
+      '@sweetalert2/theme-bootstrap-4':
+        specifier: ^5.0.16
+        version: 5.0.16
+      '@sweetalert2/theme-borderless':
+        specifier: ^5.0.16
+        version: 5.0.16
+      '@sweetalert2/theme-bulma':
+        specifier: ^5.0.16
+        version: 5.0.16
+      '@sweetalert2/theme-dark':
+        specifier: ^5.0.16
+        version: 5.0.16
+      '@sweetalert2/themes':
+        specifier: ^5.0.16
+        version: 5.0.16(sweetalert2@11.11.1)
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -20,6 +35,9 @@ importers:
       react-router-dom:
         specifier: ^6.23.1
         version: 6.23.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      sweetalert2:
+        specifier: ^11.11.1
+        version: 11.11.1
     devDependencies:
       '@types/react':
         specifier: ^18.2.66
@@ -435,6 +453,23 @@ packages:
     resolution: {integrity: sha512-UOo5FdvOL0+eIVTgS4tIdbW+TtnBLWg1YBCcU2KWM7nuNwRz9bksDX1bekJJCpu25N1DVWaCwnT39dVQxzqS8g==}
     cpu: [x64]
     os: [win32]
+
+  '@sweetalert2/theme-bootstrap-4@5.0.16':
+    resolution: {integrity: sha512-KHFJZBTrZqZGdx9TBL1t8wmkGPzq593QKX8FWr67z6foLiVjjcPK9fvdkrUrGcOJ4sjpwrk1QdELIrsdGOyp8A==}
+
+  '@sweetalert2/theme-borderless@5.0.16':
+    resolution: {integrity: sha512-T3gx9RiFjUQAmk1oNyh+gwGPImb2mozViju/1DuauvpnWYF1kZ4iMRSJAhUa/gsf3e9iEgO5ueGey5KsFXz5qA==}
+
+  '@sweetalert2/theme-bulma@5.0.16':
+    resolution: {integrity: sha512-Q5N3tA6w20JQ7RPILUGWKyuuB9GxLerN4cJcRlwNftsim3FR7M9h0RWXOR0xrMJiA4fPMI4AJWkJ7z90kQVT2w==}
+
+  '@sweetalert2/theme-dark@5.0.16':
+    resolution: {integrity: sha512-SFXEVfp9jmaBLhYEeRilrcpQP/sQimfjtZdvazJ+l5jEdNVKDkPD/CD3T7V8VqUqk/q2zUBSvr0WOMrHoAvfCA==}
+
+  '@sweetalert2/themes@5.0.16':
+    resolution: {integrity: sha512-0RR8WcJO/4iDjrHPYPNAgpM79pN3ogWhS8qCBspH73mehUzExx+kni1cP5aS/AFBhhiKuM77S8CRXJSGh/bXHg==}
+    peerDependencies:
+      sweetalert2: ^11.0.0
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -1280,6 +1315,9 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
+  sweetalert2@11.11.1:
+    resolution: {integrity: sha512-7jumu0I0/QdRa5R7K1mh05ZdhmsMV6rZOVtjpratZGidxyJD4Sn7rDSA+zmKHzvMef9hVTwPmDU3VxnvhVQMNg==}
+
   text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
@@ -1709,6 +1747,18 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.18.0':
     optional: true
+
+  '@sweetalert2/theme-bootstrap-4@5.0.16': {}
+
+  '@sweetalert2/theme-borderless@5.0.16': {}
+
+  '@sweetalert2/theme-bulma@5.0.16': {}
+
+  '@sweetalert2/theme-dark@5.0.16': {}
+
+  '@sweetalert2/themes@5.0.16(sweetalert2@11.11.1)':
+    dependencies:
+      sweetalert2: 11.11.1
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -2765,6 +2815,8 @@ snapshots:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  sweetalert2@11.11.1: {}
 
   text-table@0.2.0: {}
 
